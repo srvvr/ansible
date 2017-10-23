@@ -76,7 +76,7 @@ EXAMPLES = '''
     vpc_id: vpc-12345678
     name: prod-dmz-nacl
     region: ap-southeast-2
-    subnets: ['prod-dmz-1', 'prod-dmz-2']
+    subnets: ['prod_dmz_1', 'prod_dmz_2']
     tags:
       CostCode: CC1234
       Project: phoenix
@@ -99,8 +99,8 @@ EXAMPLES = '''
     name: prod-dmz-nacl
     region: ap-southeast-2
     subnets:
-      - prod-dmz-1
-      - prod-dmz-2
+      - prod_dmz_1
+      - prod_dmz_2
     tags:
       CostCode: CC1234
       Project: phoenix
