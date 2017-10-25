@@ -39,7 +39,8 @@ options:
     description:
       - The list of subnets that should be associated with the network ACL.
       - Must be specified as a list
-      - Each subnet can be specified as subnet ID, or its tagged name.
+      - Each subnet can be specified as subnet ID, or its tagged name. 
+        Subnet names must not start with "subnet-" or the NACL association will fail.
     required: false
   egress:
     description:
